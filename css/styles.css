@@ -1,0 +1,136 @@
+/* Este ficheiro é uma pasta de estilo adicionada ao template, para não intereferir com o ficheiro de estilo do template */
+
+
+/* **************************************
+                BODY
+************************************** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+body {
+  font-size: 1em;
+  line-height: 1.7em;
+  color: #A9853B;
+  font-weight: normal;
+  background-image: url('background-marmore.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Optional: for parallax-style effect */
+}
+
+/* Headings (h1, h2, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+/* Body text */
+body, p, a, li, span, input, textarea {
+  font-family: 'Merriweather', serif !important;
+}
+
+a {
+    color:#000000;
+  }
+  
+  a:hover {
+    color: #A9853B;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    position: relative;
+    margin: 1em 0 1.4em;
+    color: #000000;
+  }
+
+h1,h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 2.8em;
+  line-height: .9em;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: .9em;
+}
+
+h4,h5,h6 {
+  font-size: 1.125em;
+  line-height: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+/* **************************************
+                HEADER
+************************************** */
+
+
+/* ***************************************
+          Responsive Header
+*************************************** */
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding: 40px 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+  }
+
+
+  .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #A9853B;
+    padding: 10px 0;
+  }
+}
+
+/* ***************************************
+          Whatsapp Icon
+*************************************** */
+.whatsapp-float {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  z-index: 9999;
+}
+
+.whatsapp-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+
